@@ -46,7 +46,7 @@ def imgSave(download_url,img_name):
     with open('E:/PyCharm/python_code/courseDesign/img/'+img_name + '.jpg', 'wb') as f:
         f.write(img_resp.content)
         print(img_name + '   下载成功！')
-    # time.sleep(1)
+    
 
 if __name__ == '__main__':
     url = 'https://www.3gbizhi.com/sjbz/index_{}.html'
