@@ -131,7 +131,7 @@ def imgSave(download_url, img_name):
     with open('img/' + img_name + '.jpg', 'wb') as f:
         f.write(img_resp.content)
         print(img_name + '   下载成功！')
-    # time.sleep(1)
+   
 
 
 if __name__ == '__main__':
