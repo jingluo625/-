@@ -1,0 +1,45 @@
+#imgDownload{
+     qproperty-icon:url("星星.png");
+}
+
+QFrame#frame2{
+	border-image: url("background1.jpg");
+}
+
+*{
+	font-family:"sans-serif";
+}
+QLabel{
+	background:transparent;
+}
+QLabel#label{
+	font: 700 13pt "华文行楷";
+}
+QLabel#label2{
+	background-color:rgba(210, 212, 198,0.2);
+	border-radius:solid;
+	font: 14pt "华文楷体";
+}
+QFrame{
+	background:transparent;
+}
+QPushButton{
+	background:rgba(227, 187, 128,0.5);
+	border-style:outset;
+	border-radius:10px;
+}
+QPushButton:pressed{
+	background-color:rgb(153, 126, 102);
+	border-radius:outset;
+}
+QPushButton:hover{
+	background-color:qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));
+}
+QLineEdit{
+	background:rgba(227, 187, 128,0.5);
+	border-style:outset;
+	border-radius:10px;
+}
+QLineEdit:hover{
+	background:qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69))
+}
